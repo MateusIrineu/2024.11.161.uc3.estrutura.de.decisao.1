@@ -1,7 +1,16 @@
 /* Escreva um laço for que imprima todos os números de 50 a 1 em ordem decrescente. */
 
-const prompt = require('prompt-sync')()
+/* const prompt = require('prompt-sync')()
 
 for (let i = 50; i >= 1; i--) {
+    console.log(`Decrescente: ${i}`)
+} */
+
+const prompt = require('prompt-sync')()
+
+let i = 51
+
+while(i > 1) {
+    i--
     console.log(`Decrescente: ${i}`)
 }
